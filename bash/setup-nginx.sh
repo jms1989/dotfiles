@@ -1,5 +1,5 @@
 #!/bin/bash
-rm /etc/nginx/sites-available/default;
-ln -s ~/.dotfiles/nginx/default /etc/nginx/sites-available/default;
-service nginx reload;
+su - root -c "rm /etc/nginx/sites-available/default";
+su - root -c "ln -s ~/.dotfiles/nginx/default /etc/nginx/sites-available/default";
+su - root -c "service nginx reload";
 exit
