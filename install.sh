@@ -10,6 +10,5 @@ chmod +x ~/.dotfiles/bin/*.sh;
 ln -s ~/.dotfiles/bin/upload.sh ~/bin/upload.sh;
 echo "Install Ngix";
 mkdir ~/workspace;
-sudo apt-get install -y nginx;
 sudo bash ~/.dotfiles/bin/setup-nginx.sh;
 exit 0;
