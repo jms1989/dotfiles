@@ -1,0 +1,7 @@
+[color]
+	ui = true
+[user]
+	name = Michael SanAngelo
+	email = msanangelo@gmail.com
+[push]
+	default = simple
