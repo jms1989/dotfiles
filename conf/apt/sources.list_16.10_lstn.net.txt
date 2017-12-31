@@ -1,0 +1,25 @@
+# Ubuntu 16.10 Release
+deb http://mirror.lstn.net/ubuntu/ yakkety main restricted
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety main restricted
+deb http://mirror.lstn.net/ubuntu/ yakkety-updates main restricted
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety-updates main restricted
+deb http://mirror.lstn.net/ubuntu/ yakkety universe
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety universe
+deb http://mirror.lstn.net/ubuntu/ yakkety-updates universe
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety-updates universe
+deb http://mirror.lstn.net/ubuntu/ yakkety multiverse
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety multiverse
+deb http://mirror.lstn.net/ubuntu/ yakkety-updates multiverse
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety-updates multiverse
+deb http://mirror.lstn.net/ubuntu/ yakkety-backports main restricted universe multiverse
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu yakkety partner
+# deb-src http://archive.canonical.com/ubuntu yakkety partner
+
+deb http://mirror.lstn.net/ubuntu/ yakkety-security main restricted
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety-security main restricted
+deb http://mirror.lstn.net/ubuntu/ yakkety-security universe
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety-security universe
+deb http://mirror.lstn.net/ubuntu/ yakkety-security multiverse
+# deb-src http://mirror.lstn.net/ubuntu/ yakkety-security multiverse
+deb http://download.webmin.com/download/repository sarge contrib
