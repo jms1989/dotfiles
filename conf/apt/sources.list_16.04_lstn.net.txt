@@ -20,5 +20,3 @@ deb http://mirror.lstn.net/ubuntu/ xenial-security universe
 deb-src http://mirror.lstn.net/ubuntu/ xenial-security universe
 deb http://mirror.lstn.net/ubuntu/ xenial-security multiverse
 deb-src http://mirror.lstn.net/ubuntu/ xenial-security multiverse
-
-deb http://download.webmin.com/download/repository sarge contrib
