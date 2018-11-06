@@ -129,4 +129,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 source ~/.environment
 
-eval $(thefuck --alias)
+#if fuck="$(hash -p "thefuck")" || [[ -z $fuck ]]; then
+#	eval $(thefuck --alias)
+#fi
